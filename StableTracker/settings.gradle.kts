@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "StableTracker"
-include(":app")
+include(":stableTracker")
