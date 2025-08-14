@@ -8,6 +8,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import com.example.stabletracker.data.entities.ActivityType
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ActivityFormScreen(
     onSave: (type: ActivityType, timestampEpochMillis: Long, durationMinutes: Int?, notes: String?) -> Unit,

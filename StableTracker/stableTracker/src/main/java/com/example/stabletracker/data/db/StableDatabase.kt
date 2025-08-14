@@ -39,9 +39,9 @@ abstract class StableDatabase : RoomDatabase() {
                         // Prepopulate a few horses
                         CoroutineScope(Dispatchers.IO).launch {
                             val dao = getInstance(context).horseDao()
-                            dao.insert(Horse(name = "Граф"))
-                            dao.insert(Horse(name = "Звезда"))
-                            dao.insert(Horse(name = "Амур"))
+                            dao.insert(Horse(name = "Болтун"))
+                            dao.insert(Horse(name = "Крик"))
+                            dao.insert(Horse(name = "Браслет"))
                         }
                     }
                 }).build()
